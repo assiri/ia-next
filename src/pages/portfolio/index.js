@@ -9,7 +9,7 @@ export default function index({ portfolios, isFound }) {
     <div className="page">
       <Header title="All Blog كل المدونات" />
       <div className="page_head">
-        <h1>All Portfolio</h1>
+        <h1>All Portfolio كل المحافظ </h1>
       </div>
       <div
         className="m-auto px-auto color-white"
@@ -23,7 +23,7 @@ export default function index({ portfolios, isFound }) {
               );
             })
           ) : (
-            <h2 className="py-3 text-center">No Portfolio Found</h2>
+            <h2 className="py-3 text-center">No Portfolio Found لا يوجد</h2>
           )}
         </div>
       </div>
