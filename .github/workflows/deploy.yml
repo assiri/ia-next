@@ -1,5 +1,4 @@
 name: Deploy to Github Pages
-
 on:
   push:
     branches:
@@ -25,6 +24,7 @@ jobs:
           npm i
           npm run build
           npm run export
+
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
